@@ -9,7 +9,7 @@ I recently set this technique up in my lab with the goal of using it to measure 
 
 The application I created is a GUI written in python with pyqt and pandas. It takes several .csv files as input, performs the analysis to compute the final signal (called zdff), and outputs a .csv with the zdff signal to a directory of the users choice. This format allows people to use whatever other analysis tools they like to play with and visualize the data. My program also plots the final signal in a window so the user can quickly see "hey, does this look right?". 
 
-Future additions will include a "frozen" version of the app that can be downloaded and used off-the-shelf. Also, we will include the ability to align the zdff signal to digital input and output (DIO) events so that we can see how brain activity is changing environmental and behavioral events, a fundamental question in neuroscience!
+Future additions will include a "frozen" version of the app that can be downloaded and used off-the-shelf. Also, we will include the ability to align the zdff signal to digital input and output (DIO) events so that we can see how brain activity correlates to environmental and behavioral events, a fundamental question in neuroscience!
 
 ## *In this repo...*
 * **zdFF.py** A file containing all of the functions required to compute zdff from raw photometry data. Most of this code is forked from [this repo](https://github.com/PhilClarkPhD/Photometry_data_processing)
