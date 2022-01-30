@@ -12,7 +12,7 @@ The application I created is a GUI written in python with pyqt and pandas. It ta
 Future additions will include a "frozen" version of the app that can be downloaded and used off-the-shelf. Also, we will include the ability to align the zdff signal to digital input and output (DIO) events so that we can see how brain activity is changing environmental and behavioral events, a fundamental question in neuroscience!
 
 ## *In this repo...*
-* **zdFF.py** A file containing all of the functions required to compute zdff from raw photometyr data. Most of this code is forked from [this repo](https://github.com/PhilClarkPhD/Photometry_data_processing)
+* **zdFF.py** A file containing all of the functions required to compute zdff from raw photometry data. Most of this code is forked from [this repo](https://github.com/PhilClarkPhD/Photometry_data_processing)
 * **FP_GUI.py:** This file contains the code for running the application and was made by myself with help from Anthony Moreno-Sanchez. 
 
 Please reach out with questions / comments!
