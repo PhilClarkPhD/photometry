@@ -3,7 +3,7 @@ Repo for photometry analysis program
 
 ## *Background*
 
-Fiber photometry is an awesome new technique that is exploding in popularity among Neuroscientists. The reason is simple - it allows us to measure neuronal activity with high temporal resolution and terrific signal-to-noise ratio. Best of all - it's not that hard to do! The details of exactly how it works are [fascinating](https://web.archive.org/web/20190227164817id_/http://pdfs.semanticscholar.org/83b9/03db79f547c6c967fda02c1936ed7f6c979c.pdf), but beyond the scope of this document.
+Fiber photometry is an awesome new technique that is exploding in popularity among neuroscientists. The reason is simple - it allows us to measure multiple kinds of brain activity with high temporal resolution and terrific signal-to-noise ratio. Best of all - it's not that hard to do! The details of exactly how it works are [fascinating](https://web.archive.org/web/20190227164817id_/http://pdfs.semanticscholar.org/83b9/03db79f547c6c967fda02c1936ed7f6c979c.pdf), but beyond the scope of this document.
 
 I recently set this technique up in my lab with the goal of using it to measure dopamine transmission in awake, behaving animals. Although running photometry experiments isn't particularly difficult, one area that consistently causes problems for almost every lab is analyzing the data. While there are plenty of examples of working code on github, these are not very accessible to researchers without *some* background in computer programming (which in my experience is most people!). Therefore, I decided to create an easy-to-use analysis program that is accessible to everyone regardless of coding background.
 
