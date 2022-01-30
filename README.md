@@ -1,5 +1,5 @@
 # Photometry
-An easy-to-use photometry analysis program
+An easy-to-use photometry analysis program. 
 
 ## Setup
 Run `python -m pip install -r requirements.txt`
@@ -10,7 +10,6 @@ Run `python -m pip install -r requirements.txt`
 
 ## Using your own data
 1. Ensure your data follows the following format:
-
 
 ## In this repo
 * `zdff.py` A file containing the functions required to compute zdff from raw photometry data. Most of this code is 
@@ -37,8 +36,8 @@ performs the analysis to compute the final signal (called zdff), and outputs a .
 of the users choice. This format allows people to use whatever other analysis tools they like to play with and visualize
 the data. My program also plots the final signal in a window so the user can quickly see "hey, does this look right?". 
 
-Future additions will include a "frozen" version of the app that can be downloaded and used off-the-shelf. Also, we will
-include the ability to align the zdff signal to digital input and output (DIO) events so that we can see how brain 
-activity is changing environmental and behavioral events, a fundamental question in neuroscience!
+Future additions will include a "frozen" version of the app that can be downloaded and used off-the-shelf. Also, we will 
+include the ability to align the zdff signal to digital input and output (DIO) events so that we can see how brain activity 
+correlates to environmental and behavioral events, a fundamental question in neuroscience!
 
 Please reach out with questions/comments!
