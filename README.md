@@ -1,5 +1,5 @@
-# photometry
-Repo for photometry analysis program
+# Photometry
+An easy-to-use photometry analysis program
 
 ## *Background*
 
