@@ -19,7 +19,7 @@ Run `python -m pip install -r requirements.txt`
 
 ## Background
 
-Fiber photometry is an awesome new technique that is exploding in popularity among neuroscientists. The reason is simple - 
+Fiber photometry is an awesome new technique that is exploding in popularity. The reason is simple - 
 it allows us to measure multiple kinds of brain activity with high temporal resolution and terrific signal-to-noise 
 ratio. Best of all - it's not that hard to do! The details of exactly how it works are [fascinating](https://web.archive.org/web/20190227164817id_/http://pdfs.semanticscholar.org/83b9/03db79f547c6c967fda02c1936ed7f6c979c.pdf), 
 but beyond the scope of this document.
