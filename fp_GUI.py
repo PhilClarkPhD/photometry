@@ -213,14 +213,13 @@ class Window(QWidget):
         """
         asks user to select .csv file containing DIO data - not required for analyze/export
         """
-        file = QFileDialog.getOpenFileName(self, 'Open 415 writer', DATA_DIRECTORY)
-        file_path = file[0]
-        self._DIO_label.setText(f"DIO file: {str(os.path.basename(file_path))}")
+        # file = QFileDialog.getOpenFileName(self, 'Open 415 writer', DATA_DIRECTORY)
+        # file_path = file[0]
+        # self._DIO_label.setText(f"DIO file: {str(os.path.basename(file_path))}")
+        #
+        # self.df_DIO = pd.read_csv(file_path)
 
-        self.df_DIO = pd.read_csv(file_path)
-
-        # TODO: Finish this per to-do list
-        # Should this raise NotImplementedError?
+        raise NotImplementedError('load_DIO function under construction')
 
     def check_files_loaded(self):
         """
@@ -258,13 +257,14 @@ class Window(QWidget):
         if len(self.df_timestamps) != len(self.df_470):
             self.error_box.setText('470 writer and 470 timestamp files must have equal number of rows!')
             self.error_box.exec_()
-            self.analyze.kill()  # TODO: self.analyze is a function without a kill method
+            raise TypeError('470 writer and 470 timestamp files must have equal number of rows!')
+
 
         # check that bilateral variable for 470 and 415 match
         if self.bilateral_470 != self.bilateral_415 and self.bilateral_470 is not None:
             self.error_box.setText('Number of Regions do not match between 470 and 415')
             self.error_box.exec_()
-            self.analyze.kill()  # TODO: self.analyze is a function without a kill method
+            raise TypeError('Number of Regions do not match between 470 and 415')
 
     def analyze(self):
         """
