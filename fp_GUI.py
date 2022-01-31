@@ -2,7 +2,7 @@
 This program performs zdff analysis on photometry data. Inputs must match the Neurophotometrics format
 (https://neurophotometrics.com/).
 
-Created by Phil Clark and Anthony Moreno-Sanchez January 2022.
+Created by Phil Clark and Anthony Moreno-Sanchez January 2022. Code review by Chris Anderson
 
 TODO:
     1. IF DIO == True, add perievent function and call in analyze function
