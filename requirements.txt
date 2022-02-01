@@ -1,4 +1,3 @@
-# List third-party dependencies, pin exact versions for reproducibility
 # Python 3.9.*
 
 PyQt5==5.15.6
