@@ -9,7 +9,7 @@ Run `python -m pip install -r requirements.txt`
 2. Click the buttons in order, loading the data from `<this_repo_directory>/sample_data`.
 
 ## Using your own data
-1. Ensure your data follows the following format:
+Ensure your files follow the format of the sample data, which based on the output from the Neurophotometrics system. **Column names for data must be Region0 (unilateral) and Region0/Region1 (bilateral)**.
 
 ## In this repo
 * `zdff.py` A file containing the functions required to compute zdff from raw photometry data. Most of this code is 
