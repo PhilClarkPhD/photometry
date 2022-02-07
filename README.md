@@ -1,5 +1,6 @@
 # Photometry
 An easy-to-use photometry analysis program. 
+[video walkthrough](https://www.youtube.com/watch?v=ItXsphjVFG4)
 
 ## Setup
 Run `python -m pip install -r requirements.txt`
